@@ -77,7 +77,6 @@ function App(props) {
       <Form addTask={addTask}/>
       <div className="filters btn-group stack-exception">
         {filterList}
-        <FilterButton />
       </div>
       <h2 id="list-heading">
         {headingText}
